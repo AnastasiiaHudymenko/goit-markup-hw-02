@@ -175,6 +175,8 @@ body {
 
   color: var(--main-color);
   background-color: #f5f4fa;
+
+  cursor: pointer;
 }
 .filter-btn:hover,
 .filter-btn:focus {
