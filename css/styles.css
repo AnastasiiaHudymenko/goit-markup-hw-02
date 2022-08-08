@@ -9,6 +9,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  font-size: 14px;
   letter-spacing: var(--letter-spacing);
   color: var(--main-color);
 }
@@ -49,6 +50,9 @@ body {
 }
 .site-nav-link:hover,
 .site-nav-link:focus {
+  color: var(--accent-color);
+}
+.current-link {
   color: var(--accent-color);
 }
 
@@ -95,22 +99,19 @@ body {
 
 /* Стилі секциї Features */
 .features-title {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
+
   text-transform: uppercase;
 }
 
 .features-text {
-  font-size: 14px;
   line-height: 1.71;
 
   color: var(--secondary-color);
 }
 /* Загальний стиль для заголовків секції */
-.title-section {
-  font-weight: 700;
+.section-title {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -123,7 +124,6 @@ body {
   background-color: #f5f4fa;
 }
 .team-list-title {
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
 }
@@ -146,14 +146,12 @@ body {
 
 .footer-link {
   font-style: normal;
-  font-size: 14px;
   line-height: 1.71;
 
   color: #ffffff;
 }
 
 .footer-contacts {
-  font-size: 14px;
   line-height: 1.71;
   font-style: normal;
 
@@ -183,9 +181,12 @@ body {
   background-color: var(--accent-color);
   color: #ffffff;
 }
+.current-btn {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
 
 .portfolio-title {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
